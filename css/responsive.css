@@ -1,0 +1,482 @@
+/* media queries */
+
+
+/* MOBILE */
+
+@media screen and (max-width:576px) {
+    /* General Settings */
+    .section-header h2 {
+        font-size: 1rem;
+    }
+    .section-header h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .section-header p {
+        font-size: 0.8em;
+    }
+    /* Button Settings */
+    .double-btn {
+        font-size: 0.75rem;
+    }
+    /* Header Section */
+    .header {
+        justify-content: space-between;
+        padding: 20px 35px;
+    }
+    .main-nav {
+        display: none;
+    }
+    .nav-btn {
+        display: block;
+    }
+    .nav-btn button {
+        border: none;
+        outline: none;
+        background: none;
+    }
+    .nav-btn i {
+        color: #343434;
+    }
+    /* Slider area */
+    #slider-area {
+        height: 335px;
+        background-position: center;
+    }
+    .slider-items h2 {
+        font-size: 1rem;
+    }
+    /* Process Section */
+    #process {
+        padding-bottom: 0;
+    }
+    .process-item {
+        width: 100%;
+        margin: 30px 10px;
+    }
+    /* Team Settings */
+    #team,
+    .result {
+        padding-bottom: 0px;
+    }
+    .team-item {
+        width: 100%;
+    }
+    .team-img {
+        height: 210px;
+    }
+    /* result */
+    .result-item {
+        width: calc(55% - 22px);
+        margin: 30px auto;
+    }
+    .result-img i {
+        font-size: 1.5rem;
+    }
+    .result-item h3 {
+        font-size: 2rem;
+    }
+    .result-item h4 {
+        font-size: 0.7rem;
+    }
+    /* Servces Settings */
+    #services {
+        padding-bottom: 0;
+    }
+    .services-items {
+        justify-content: space-around;
+    }
+    .services-item {
+        width: calc(75% - 20px);
+        margin-bottom: 20px;
+    }
+    /* Additional Settings */
+    .add-item {
+        width: 80%;
+        margin: 20px auto 0;
+    }
+    #additional .section-header {
+        padding-bottom: 0;
+    }
+    .add-content {
+        padding-bottom: 20px;
+    }
+    .add-img {
+        height: 250px;
+    }
+    .add-content h2 {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    .add-list ul {
+        margin: 0;
+    }
+    .add-foot-items p {
+        padding: 20px;
+        font-size: 0.9rem;
+    }
+    /* Pricing Settings */
+    .pricing-item {
+        width: 60%;
+        margin: 20px auto;
+    }
+    .pricing-item h2 {
+        font-size: 2.8rem;
+    }
+    .pricing-item h2 span {
+        font-size: 0.6rem;
+    }
+    .pricing-item h3 {
+        font-size: 0.8rem;
+        padding-bottom: 0;
+    }
+    .pricing-item li {
+        font-size: 0.75rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .pricing-list {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .pricing-text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #pricing .double-btn a {
+        font-size: 8px;
+    }
+    .pricing-bottom-items li {
+        font-size: 4.68rem;
+        width: 80%;
+        padding: 30px;
+        text-align: center;
+    }
+    /* Portfolio Settings */
+    .filter-nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .portfolio-item {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .portfolio-desc {
+        opacity: 1;
+    }
+    /* Blog Settings */
+    .blog-item {
+        width: 100%;
+    }
+    /* Contact Settings */
+    #contact {
+        padding-bottom: 0;
+    }
+    .contact-item {
+        width: 100%;
+        margin: 30px;
+        margin-top: 0;
+    }
+    .contact {
+        padding: 0;
+        margin: 0;
+    }
+    .contact-form {
+        width: 100%;
+        margin: 30px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+    .contact-form textarea {
+        height: 130px;
+    }
+    .form-btn {
+        font-size: 0.75rem;
+    }
+    .contact-items {
+        padding-top: 0;
+    }
+    .contact h3 {
+        font-size: 0.9375rem;
+    }
+    .contact p,
+    .contact a,
+    .contact .address {
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+    /* Footer Settings */
+    .footer-items {
+        flex-direction: column-reverse;
+    }
+    .footer-item {
+        width: 100%;
+        text-align: center;
+    }
+    footer ul {
+        text-align: center;
+    }
+    footer li {
+        padding: 4px;
+    }
+    footer p {
+        font-size: 11px;
+    }
+}
+
+
+/* IPAD */
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    /* General Settings */
+    .section-header h2 {
+        font-size: 1rem;
+    }
+    .section-header h3 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .section-header p {
+        font-size: 0.8em;
+    }
+    /* Button Settings */
+    .double-btn {
+        font-size: 0.75rem;
+    }
+    /* Header Section */
+    .header {
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+    .main-nav {
+        display: none;
+    }
+    .nav-btn {
+        display: block;
+    }
+    .nav-btn button {
+        border: none;
+        outline: none;
+        background: none;
+    }
+    .nav-btn i {
+        color: #343434;
+    }
+    /* Slider area */
+    #slider-area {
+        height: 335px;
+    }
+    .slider-items h2 {
+        font-size: 1.5rem;
+    }
+    /* Process Section */
+    #process {
+        padding-bottom: 30px;
+    }
+    .process-item {
+        width: 100%;
+        margin: 30px 10px;
+    }
+    .process-item p {
+        max-width: 350px;
+        margin: auto;
+    }
+    /* Team Section */
+    #team,
+    .result {
+        padding-bottom: 0px;
+    }
+    .team-item {
+        width: 100%;
+    }
+    .team-img {
+        height: 448px;
+    }
+    /* result */
+    .result-items {
+        justify-content: space-around;
+    }
+    .result-item {
+        width: 40%;
+    }
+    /* Servces Settings */
+    .services-items {
+        justify-content: space-around;
+    }
+    .services-item {
+        width: calc(45% - 20px);
+        margin-bottom: 20px;
+    }
+    /* Additional Settings */
+    .add-item {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .add-img {
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .add-foot-items p {
+        padding: 20px;
+        font-size: 1rem;
+    }
+    /* Pricing Settings */
+    .pricing-item {
+        width: 50%;
+        margin: 20px auto;
+    }
+    .pricing-bottom-items ul {
+        justify-content: center;
+    }
+    .pricing-bottom-items li {
+        font-size: 4.68rem;
+        padding: 30px;
+        text-align: center;
+    }
+    .pricing-bottom-items li {
+        width: calc((100% / 3) - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /* Portfolio Settings */
+    .portfolio-item {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .portfolio-desc {
+        opacity: 1;
+    }
+    /* Blog Settings */
+    .blog-item {
+        width: 100%;
+    }
+    /* Contact Settings */
+    .contact-item {
+        width: 100%;
+        margin: 30px;
+    }
+    .contact-form {
+        width: 100%;
+        margin: 30px;
+    }
+    .contact {
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .agency-contact {
+        width: 50%;
+    }
+    .work-hours {
+        width: 50%;
+    }
+    .contact h3 {
+        font-size: 0.9375rem;
+    }
+    .contact p,
+    .contact a,
+    .contact .address {
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+    /* Footer Settings */
+    .footer-items {
+        flex-direction: column-reverse;
+    }
+    .footer-item {
+        text-align: center;
+    }
+    footer ul {
+        text-align: center;
+    }
+    footer li {
+        padding: 5px;
+    }
+    footer p {
+        margin: auto;
+    }
+}
+
+
+/* IPAD 1024 */
+
+@media screen and (min-width:767px) and (max-width:1200px) {
+    /* General Settings */
+    .section-header h3 {
+        font-weight: 500;
+    }
+    /* Team Settings */
+    #team,
+    .result {
+        padding-bottom: 0px;
+    }
+    /* Servces Settings */
+    .services-items {
+        justify-content: space-around;
+    }
+    .services-item {
+        width: calc(45% - 20px);
+        margin-bottom: 20px;
+    }
+    /*Pricing Settings  */
+    .pricing-item h2 {
+        font-size: 3rem;
+    }
+    .pricing-item h2 span {
+        font-size: .7rem;
+    }
+    .pricing-item h3 {
+        font-size: 0.85rem;
+    }
+    .pricing-list li {
+        font-size: 0.8rem;
+    }
+    .pricing-bottom-items li {
+        font-size: 2.6rem;
+    }
+    /* Portfolio Settings */
+    .portfolio-item {
+        width: 70%;
+        margin: 20px auto;
+    }
+    .portfolio-desc {
+        opacity: 1;
+    }
+    /* Contact Setting */
+    .contact h3 {
+        font-size: 0.9375rem;
+    }
+    .contact p,
+    .contact a,
+    .contact .address {
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+    .contact-item {
+        width: 100%;
+        margin: 30px;
+    }
+    .contact {
+        display: flex;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .agency-contact {
+        width: 50%;
+    }
+    .contact-form {
+        width: 100%;
+        margin: 30px;
+    }
+    /* Footer Settings */
+    footer {
+        padding: 20px;
+    }
+}
